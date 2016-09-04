@@ -27,6 +27,7 @@ gulp.task('watch', () => {
   gulp.watch([paths.docs     + '*.html'],     ['bs:reload']);
   gulp.watch([paths.srcJade  + '**/*.jade'],  ['jade']);
   gulp.watch([paths.srcScss  + '**/*.scss'],  ['sass']);
+  gulp.watch([paths.srcJs    + '*.js'],       ['bundle:js']);
 });
 
 gulp.task('server', [
@@ -34,5 +35,6 @@ gulp.task('server', [
   'bs:reload',
   'jade',
   'sass',
+  'bundle:js',
   'watch'
 ]);

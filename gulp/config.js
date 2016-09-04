@@ -21,8 +21,11 @@ export default {
   // scss
   'destScss'    : 'build/scss/',
   'srcScss'     : 'src/scss/',
+  // jade
+  'srcJade'     : 'src/jade/',
   // css
   'destCss'     : 'build/css/',
-  // jade
-  'srcJade'     : 'src/jade/'
+  // js
+  'srcJs'       : 'src/js/',
+  'destJs'      : 'docs/js/'
 }
