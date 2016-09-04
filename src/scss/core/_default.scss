@@ -91,3 +91,10 @@ object {
 svg:not(:root) {
   overflow: hidden;
 }
+
+/**
+ * form
+ */
+input {
+  font-family: $fontFamily;
+}
