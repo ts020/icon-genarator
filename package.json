@@ -54,6 +54,7 @@
     "gulp-sketch": "^1.0.3",
     "gulp-svg-sprite": "^1.3.4",
     "gulp-watch": "^4.3.9",
+    "riot": "^2.6.1",
     "run-sequence": "^1.2.2",
     "vinyl-source-stream": "^1.1.0"
   }
