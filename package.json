@@ -40,7 +40,7 @@
     "babel-register": "^6.18.0",
     "browser-sync": "^2.13.0",
     "del": "^2.2.2",
-    "eslint": "^3.4.0",
+    "eslint": "^7.4.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-clean-css": "^2.0.12",
